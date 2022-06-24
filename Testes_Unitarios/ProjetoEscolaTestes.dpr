@@ -15,9 +15,9 @@ uses
   Controller.Professor_Aluno in '..\Controller\Controller.Professor_Aluno.pas',
   Model.Professor_Aluno in '..\Model\Model.Professor_Aluno.pas',
   DAO.Professor_Aluno in '..\DAO\DAO.Professor_Aluno.pas',
-  DataModule in '..\DAO\DataModule.pas' {dmPrincipal: TDataModule},
   Model.Aluno in '..\Model\Model.Aluno.pas',
-  Model.Professor in '..\Model\Model.Professor.pas';
+  Model.Professor in '..\Model\Model.Professor.pas',
+  DataModule in 'DataModule.pas' {dmTestes: TDataModule};
 
 var
   runner : ITestRunner;

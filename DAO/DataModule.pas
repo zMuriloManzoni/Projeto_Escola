@@ -39,7 +39,7 @@ begin
   Try
     Conexao := TFDConnection.Create(nil);
     Conexao.Params.DriverID := 'FB';
-    Conexao.Params.Database := ExtractFilePath(Application.ExeName) + 'DataBaseTeste\PROJETO_ESCOLA_TESTE.FDB';
+    Conexao.Params.Database := ExtractFilePath(Application.ExeName) + 'DataBase\PROJETO_ESCOLA.FDB';
     Conexao.Params.UserName := 'SYSDBA';
     Conexao.Params.Password := 'masterkey';
     Conexao.Connected := true;

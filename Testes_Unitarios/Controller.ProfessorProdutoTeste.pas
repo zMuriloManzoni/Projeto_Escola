@@ -29,11 +29,12 @@ type
 implementation
 
 uses
-  System.SysUtils, DataModule;
+  System.SysUtils, DataModule, Vcl.Forms;
 
 procedure TControllerProfessorAlunoTest.Setup;
 begin
-  dmPrincipal := TDMPrincipal.Create(Nil);
+  dmTestes := TdmTestes.Create(Nil);
+
   FProfessor_AlunoController := TProfessor_AlunoController.Create;
   FProfessor_Aluno := TProfessor_Aluno.Create;
 

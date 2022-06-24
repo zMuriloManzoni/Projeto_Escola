@@ -139,13 +139,13 @@
         <DCCReference Include="..\Controller\Controller.Professor_Aluno.pas"/>
         <DCCReference Include="..\Model\Model.Professor_Aluno.pas"/>
         <DCCReference Include="..\DAO\DAO.Professor_Aluno.pas"/>
-        <DCCReference Include="..\DAO\DataModule.pas">
-            <Form>dmPrincipal</Form>
+        <DCCReference Include="..\Model\Model.Aluno.pas"/>
+        <DCCReference Include="..\Model\Model.Professor.pas"/>
+        <DCCReference Include="DataModule.pas">
+            <Form>dmTestes</Form>
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="..\Model\Model.Aluno.pas"/>
-        <DCCReference Include="..\Model\Model.Professor.pas"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -168,6 +168,12 @@
                 </Source>
             </Delphi.Personality>
             <Deployment Version="3">
+                <DeployFile LocalName="Win32\Debug\ProjetoEscolaTestes.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>ProjetoEscolaTestes.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\osx32\libcgunwind.1.0.dylib" Class="DependencyModule">
                     <Platform Name="OSX32">
                         <Overwrite>true</Overwrite>
@@ -185,12 +191,6 @@
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\Redist\osx32\libcgsqlite3.dylib" Class="DependencyModule">
                     <Platform Name="OSX32">
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
-                <DeployFile LocalName="Win32\Debug\ProjetoEscolaTestes.exe" Configuration="Debug" Class="ProjectOutput">
-                    <Platform Name="Win32">
-                        <RemoteName>ProjetoEscolaTestes.exe</RemoteName>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>

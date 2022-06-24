@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<test-results name="D:\ProjetoEscola\Teste_Unitario\Win32\Debug\ProjetoEscolaTestes.exe" total="2" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2022-06-23" time="0.217">
+<test-results name="C:\Projeto_Escola\Testes_Unitarios\Win32\Debug\ProjetoEscolaTestes.exe" total="2" errors="0" failures="0" ignored="0" inconclusive="0" not-run="0" skipped="0" invalid="0" date="2022-06-24" time="0.149">
   <culture-info current-culture="en" current-uiculture="en" />
-  <test-suite type="Assembly" name="ProjetoEscolaTestes.exe" executed="true" result="Success" success="True" time="0.217" asserts="0">
+  <test-suite type="Assembly" name="ProjetoEscolaTestes.exe" executed="true" result="Success" success="True" time="0.149" asserts="0">
     <results>
-        <test-suite type="Namespace" name="Controller" executed="true" result="Success" success="True" time="0.217" asserts="0" >
+        <test-suite type="Namespace" name="Controller" executed="true" result="Success" success="True" time="0.149" asserts="0" >
           <results>
-              <test-suite type="Fixture" name="TControllerProfessorAlunoTest" executed="True" result="Success" success="True" time="0.217" >
+              <test-suite type="Fixture" name="TControllerProfessorAlunoTest" executed="True" result="Success" success="True" time="0.149" >
                 <results>
                   <test-case name="TestCadastrarProfessorAluno" executed="True" result="Success" success="True" time="0.004" asserts="0" />
-                  <test-case name="TestAtualizarProfessorAluno" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                  <test-case name="TestAtualizarProfessorAluno" executed="True" result="Success" success="True" time="0.003" asserts="0" />
                 </results>
               </test-suite>
           </results>
