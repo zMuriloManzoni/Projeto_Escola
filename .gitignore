@@ -27,11 +27,3 @@
 *.local
 __history/
 __recovery/
-*.exe
-*.ini
-*.INI
-*.stat
-
-*.FDB
-SistemadeCheque/Projeto/JMSmartCheque.identcache
-SistemadeCheque/Projeto/JMSmartCheque.identcache
